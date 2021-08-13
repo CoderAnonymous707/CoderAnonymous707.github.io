@@ -1,0 +1,96 @@
+#title {
+	font-family: 'Lato', sans-serif; 
+	font-size: 100px; 
+	font-weight: 300px; 
+	text-align: center; 
+	padding-top: 240px; 
+	padding-bottom: 250px; 
+	background-color: rgb(145, 145, 145, 0.3); 
+	margin-left: -10px; 
+	margin-right: -8px; 
+	margin-top: -20px;
+	margin-left: 300px;
+}
+
+body {
+	background-image: url("https://wallpapercave.com/wp/wp7778839.jpg");
+	background-attachment: fixed; 
+	background-size: 100% 100%;
+}
+
+.content {
+	margin-left: 300px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	background-color: white;
+	margin-top: -67px;
+	margin-right: -8px;
+	padding-bottom:	20px;
+}
+
+.content h3 {
+	font-family: 'Lato', sans-serif;
+	font-size: 40px;
+}
+
+.content p {
+	text-align: justify; 
+	font-family: 'Lora', 'Garamond', serif; 
+}
+
+::selection {
+	background: rgb(201, 151, 0, 0.5);
+}
+
+.tamil {
+	font-family: "Kavivanar", cursive;
+}
+
+#sidebar {
+	position: fixed; 
+	top: 0px;
+	left: 0px;
+	width: 280px;
+	height: 920px;
+	background-color: rgb(191, 173, 113);
+	padding-left: 30px
+}
+
+#sidebar h3 {
+	font-family: "Lato", sans-serif; 
+	font-size: 35px;
+}
+
+#sidebar p {
+	font-family: "Bitter", serif; 
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#sidebar a {
+	text-decoration: none;
+	color: white;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 10px grey; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border: solid 1px #888;
+  border-radius: 20px; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
